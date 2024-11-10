@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c9a32bff.css",
+    "main.js": "/Portfolio/static/js/main.5105a03c.js",
+    "static/js/453.ed3810f9.chunk.js": "/Portfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/netflix.png": "/Portfolio/static/media/netflix.8192949083eafb3a9a22.png",
+    "static/media/ecommerce.png": "/Portfolio/static/media/ecommerce.1df9c8e7765ff5827f71.png",
+    "static/media/newww.png": "/Portfolio/static/media/newww.2737e9d9225f0a446408.png",
+    "static/media/notes.png": "/Portfolio/static/media/notes.0a5bf40265c23d6b68a3.png",
+    "static/media/MHDS.jpeg": "/Portfolio/static/media/MHDS.f39db376e609ff09ea5a.jpeg",
+    "static/media/mea.jpeg": "/Portfolio/static/media/mea.987fd0a28764933d0dc3.jpeg",
+    "static/media/DV.png": "/Portfolio/static/media/DV.4c8b481f58018e3da752.png",
+    "static/media/Voice Car.jpeg": "/Portfolio/static/media/Voice Car.4e61b075420a85478938.jpeg",
+    "static/media/mim.jpeg": "/Portfolio/static/media/mim.a2b897148be2b1b91cf3.jpeg",
+    "static/media/chatapp.jpg": "/Portfolio/static/media/chatapp.823aa96de4297461c0c6.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.c9a32bff.css.map": "/Portfolio/static/css/main.c9a32bff.css.map",
+    "main.5105a03c.js.map": "/Portfolio/static/js/main.5105a03c.js.map",
+    "453.ed3810f9.chunk.js.map": "/Portfolio/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9a32bff.css",
+    "static/js/main.5105a03c.js"
+  ]
+}
