@@ -1,0 +1,17 @@
+.nav {
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    justify-content: flex-end;
+    font-family: cursive;
+    align-items: center;
+}
+
+h4 {
+    margin-right: 35px;
+    font-size: larger;
+}
+
+.links {
+    text-decoration: none !important;
+}

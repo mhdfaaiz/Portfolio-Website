@@ -1,0 +1,103 @@
+.box {
+    margin: 15px;
+    margin-top: 40px;
+}
+
+.About {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.br {
+    margin-top: 20px;
+}
+
+.headi {
+    display: inline-block;
+    padding: 0px 12px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 20px;
+    margin-left: 30px;
+    letter-spacing: 5px;
+    font-size: 11px;
+}
+
+.heading {
+    padding: 0px 12px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+}
+
+.link {
+    color: #333333;
+}
+
+.cv {
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.cvhead {
+    font-weight: bolder;
+}
+
+.download-cv-button {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 100px;
+    border: none;
+    font-family: fantasy;
+    height: 50px;
+}
+
+.download-cv-button:hover {
+    background-color: #7f7f5e;
+}
+
+@keyframes text {
+    from {
+        transform: translateX(-30px);
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 992px) {
+    .box {
+        text-align: center;
+    }
+}
+
+.about {
+    background-color: #7f7f5e;
+    height: 100%;
+    display: flex;
+    color: #f0f0f0;
+    flex-direction: column;
+
+}
+
+.head {
+    text-align: left;
+    font-weight: 900;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.card1 {
+    width: 800px;
+    height: 400px;
+    margin-bottom: 90px;
+
+}
+
+.card2 {
+    width: 800px;
+    height: 440px;
+    margin-bottom: 20px;
+}

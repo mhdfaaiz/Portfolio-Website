@@ -1,0 +1,17 @@
+.mea {
+    width: 180%;
+    height: 45%;
+}
+
+.study {
+    margin-top: 6px;
+    margin-left: 0px;
+    height: 300px !important;
+    width: 550px !important;
+    border: none !important;
+
+}
+
+.study .mea {
+    height: 110%;
+}
