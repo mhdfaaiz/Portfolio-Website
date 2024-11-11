@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/repo-name/static/css/main.87bfb0be.css",
-    "main.js": "/repo-name/static/js/main.fcc0627a.js",
-    "static/js/453.ed3810f9.chunk.js": "/repo-name/static/js/453.ed3810f9.chunk.js",
-    "static/media/netflix.png": "/repo-name/static/media/netflix.8192949083eafb3a9a22.png",
-    "static/media/ecommerce.png": "/repo-name/static/media/ecommerce.1df9c8e7765ff5827f71.png",
-    "static/media/newww.png": "/repo-name/static/media/newww.2737e9d9225f0a446408.png",
-    "static/media/notes.png": "/repo-name/static/media/notes.0a5bf40265c23d6b68a3.png",
-    "static/media/MHDS.jpeg": "/repo-name/static/media/MHDS.f39db376e609ff09ea5a.jpeg",
-    "static/media/mea.jpeg": "/repo-name/static/media/mea.987fd0a28764933d0dc3.jpeg",
-    "static/media/DV.png": "/repo-name/static/media/DV.4c8b481f58018e3da752.png",
-    "static/media/Voice Car.jpeg": "/repo-name/static/media/Voice Car.4e61b075420a85478938.jpeg",
-    "static/media/mim.jpeg": "/repo-name/static/media/mim.a2b897148be2b1b91cf3.jpeg",
-    "static/media/chatapp.jpg": "/repo-name/static/media/chatapp.823aa96de4297461c0c6.jpg",
-    "index.html": "/repo-name/index.html",
-    "main.87bfb0be.css.map": "/repo-name/static/css/main.87bfb0be.css.map",
-    "main.fcc0627a.js.map": "/repo-name/static/js/main.fcc0627a.js.map",
-    "453.ed3810f9.chunk.js.map": "/repo-name/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/Portfolio-Website/static/css/main.87bfb0be.css",
+    "main.js": "/Portfolio-Website/static/js/main.b4e7c5e8.js",
+    "static/js/453.ed3810f9.chunk.js": "/Portfolio-Website/static/js/453.ed3810f9.chunk.js",
+    "static/media/netflix.png": "/Portfolio-Website/static/media/netflix.8192949083eafb3a9a22.png",
+    "static/media/ecommerce.png": "/Portfolio-Website/static/media/ecommerce.1df9c8e7765ff5827f71.png",
+    "static/media/newww.png": "/Portfolio-Website/static/media/newww.2737e9d9225f0a446408.png",
+    "static/media/notes.png": "/Portfolio-Website/static/media/notes.0a5bf40265c23d6b68a3.png",
+    "static/media/MHDS.jpeg": "/Portfolio-Website/static/media/MHDS.f39db376e609ff09ea5a.jpeg",
+    "static/media/mea.jpeg": "/Portfolio-Website/static/media/mea.987fd0a28764933d0dc3.jpeg",
+    "static/media/DV.png": "/Portfolio-Website/static/media/DV.4c8b481f58018e3da752.png",
+    "static/media/Voice Car.jpeg": "/Portfolio-Website/static/media/Voice Car.4e61b075420a85478938.jpeg",
+    "static/media/mim.jpeg": "/Portfolio-Website/static/media/mim.a2b897148be2b1b91cf3.jpeg",
+    "static/media/chatapp.jpg": "/Portfolio-Website/static/media/chatapp.823aa96de4297461c0c6.jpg",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.87bfb0be.css.map": "/Portfolio-Website/static/css/main.87bfb0be.css.map",
+    "main.b4e7c5e8.js.map": "/Portfolio-Website/static/js/main.b4e7c5e8.js.map",
+    "453.ed3810f9.chunk.js.map": "/Portfolio-Website/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87bfb0be.css",
-    "static/js/main.fcc0627a.js"
+    "static/js/main.b4e7c5e8.js"
   ]
 }
