@@ -34,7 +34,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://username.github.io/repo-name",
+  "homepage": "https://mhdfaaiz.github.io/Portfolio-Website",
   "eslintConfig": {
     "extends": [
       "react-app",
