@@ -34,7 +34,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://mhdfaaiz.github.io/Portfolio-Website",
+  "homepage": "https://muhammedfayis.online",
   "eslintConfig": {
     "extends": [
       "react-app",
