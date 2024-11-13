@@ -101,3 +101,13 @@
     height: 440px;
     margin-bottom: 20px;
 }
+
+@media (max-width:769px) {
+
+    .head {
+        text-align: left;
+        font-weight: 900;
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+}

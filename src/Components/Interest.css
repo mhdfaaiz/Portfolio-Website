@@ -121,6 +121,14 @@ div>p {
     .other {
         margin-top: 20px;
     }
+
+    .intbox {
+        margin: 15px;
+        /* box-shadow: 10px 10px 20px rgba(244, 241, 241, 1); */
+        border-radius: 6px;
+        padding-top: 170px;
+    }
+
 }
 
 @media (max-width:392px) {

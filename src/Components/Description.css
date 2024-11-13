@@ -113,3 +113,34 @@
         transform: rotateX(90deg);
     }
 }
+
+@media (max-width:769px) {
+
+    .des.about-page {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        flex-direction: column;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .text-zone {
+        flex: 7 1;
+        max-width: 100%;
+        padding-top: 40px;
+    }
+
+    .stage-cube-cont {
+        flex: 3 1;
+        position: sticky;
+        padding-top: 30px;
+    }
+
+    .home-about-body {
+        padding-top: 20px;
+        font-size: 1.0em !important;
+        text-align: left;
+    }
+}
