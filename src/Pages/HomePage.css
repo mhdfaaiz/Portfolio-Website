@@ -52,26 +52,25 @@
     }
 
     .first {
-        flex: 1 1;
+        align-items: flex-start;
         display: flex;
+        flex: 1 1;
         flex-direction: column;
         justify-content: flex-start;
-        padding-top: 70px;
-        align-items: flex-start;
-        padding-left: 25px;
+        padding-left: 15px;
+        padding-top: 40px;
     }
 
     .hi {
-        font-size: 20px;
+        font-size: 17px;
         font-weight: 500;
         margin: 0;
     }
 
     .name {
-        font-size: 28px;
+        font-size: 25px;
         font-weight: 800;
-        font-family: sans-serif;
-        margin: 10px 0 0 0;
+        margin: 10px 0 0;
     }
 
     .role {
@@ -85,16 +84,16 @@
     }
 
     .desc {
-        font-style: italic;
-        width: 335px;
         color: #7b6e6e;
-        font-size: medium;
+        font-size: small;
+        font-style: italic;
+        width: 295px;
     }
 
     .pic {
-        position: absolute;
-        width: 415px;
         bottom: 0;
+        position: absolute;
+        width: 340px;
     }
 
     .second {
