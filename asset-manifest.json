@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c81d561f.css",
-    "main.js": "/static/js/main.24fb7250.js",
+    "main.css": "/static/css/main.50125644.css",
+    "main.js": "/static/js/main.036b4ff6.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/netflix.png": "/static/media/netflix.8192949083eafb3a9a22.png",
     "static/media/ecommerce.png": "/static/media/ecommerce.1df9c8e7765ff5827f71.png",
     "static/media/newww.png": "/static/media/newww.2737e9d9225f0a446408.png",
     "static/media/notes.png": "/static/media/notes.0a5bf40265c23d6b68a3.png",
-    "static/media/MHDS.jpeg": "/static/media/MHDS.f39db376e609ff09ea5a.jpeg",
+    "static/media/VoiceCar.jpeg": "/static/media/VoiceCar.f39db376e609ff09ea5a.jpeg",
     "static/media/mea.jpeg": "/static/media/mea.987fd0a28764933d0dc3.jpeg",
     "static/media/DV.png": "/static/media/DV.4c8b481f58018e3da752.png",
-    "static/media/Voice Car.jpeg": "/static/media/Voice Car.4e61b075420a85478938.jpeg",
+    "static/media/MHDS.jpeg": "/static/media/MHDS.4e61b075420a85478938.jpeg",
     "static/media/mim.jpeg": "/static/media/mim.a2b897148be2b1b91cf3.jpeg",
     "static/media/chatapp.jpg": "/static/media/chatapp.823aa96de4297461c0c6.jpg",
     "index.html": "/index.html",
-    "main.c81d561f.css.map": "/static/css/main.c81d561f.css.map",
-    "main.24fb7250.js.map": "/static/js/main.24fb7250.js.map",
+    "main.50125644.css.map": "/static/css/main.50125644.css.map",
+    "main.036b4ff6.js.map": "/static/js/main.036b4ff6.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c81d561f.css",
-    "static/js/main.24fb7250.js"
+    "static/css/main.50125644.css",
+    "static/js/main.036b4ff6.js"
   ]
 }
