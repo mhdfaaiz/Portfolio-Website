@@ -7,7 +7,7 @@ import chatapp from '../static/chatapp.jpg';
 import netflix from '../static/netflix.png';
 import notes from '../static/notes.png';
 import MHDS from '../static/MHDS.jpeg';
-import VoiceCar from '../static/Voice Car.jpeg';
+import VoiceCar from '../static/VoiceCar.jpeg';
 import dv from '../static/DV.png';
 
 

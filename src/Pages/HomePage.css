@@ -22,9 +22,7 @@
 }
 
 .pic {
-    position: fixed;
-    bottom: 0;
-    width: 43%;
+    width: 500px;
 }
 
 .hi {
@@ -94,10 +92,9 @@
     }
 
     .pic {
-        position: fixed;
-        bottom: 0px;
-        width: 110%;
-        right: -15px;
+        position: absolute;
+        width: 415px;
+        bottom: 0;
     }
 
     .second {
