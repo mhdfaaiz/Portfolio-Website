@@ -8,10 +8,9 @@ function NavBar() {
     const location = useLocation();
 
     const isStyledPage = location.pathname === '/about' || location.pathname === '/project' || location.pathname === '/contact';
-
     const navbarStyle = {
-        backgroundColor: isStyledPage ? 'white' : 'transparent',
-        color: isStyledPage ? '#7f7f5e' : 'white',
+        backgroundColor: isStyledPage ? 'black' : 'transparent',
+        color: isStyledPage ? '#7f7f5e' : 'black',
     };
     return (
         <div style={navbarStyle} className='nav'>
