@@ -37,11 +37,9 @@
 }
 
 .box {
-    background-color: white;
-    width: 500px;
+    background-color: #ffffff;
     border-radius: 10px;
     flex: 1 1;
-    max-width: 50%;
 }
 
 .home-social-icons {
@@ -81,7 +79,7 @@
 }
 
 .location-icon {
-    color: #ff6347;
+    color: #000000;
     font-size: 1.5rem;
 }
 
@@ -105,22 +103,22 @@
 }
 
 .contact-form {
+    color: #7f7f5e;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    max-width: 500px;
     gap: 1rem;
     padding: 1rem;
-    color: #7f7f5e;
+    flex-wrap: wrap;
     /* Adds internal padding for mobile */
 }
 
 .contact-form input,
 .contact-form textarea {
-    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
+    padding: 10px;
+    width: 500px;
 }
 
 .contact-form button {
@@ -138,10 +136,6 @@
     background-color: #3d3d2f;
 }
 
-.contact-form button:disabled {
-    background-color: #cccccc;
-    cursor: not-allowed;
-}
 
 @media (max-width:769px) {
     .contact-container {
@@ -188,5 +182,14 @@
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         max-width: fit-content;
         margin-left: 12px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+        padding: 10px;
+        width: 335px;
     }
 }

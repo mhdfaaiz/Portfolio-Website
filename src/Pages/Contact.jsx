@@ -12,6 +12,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn, } from 'react-icons/fa';
 import { FaLocationPin, } from 'react-icons/fa6';
+import { IoLocationOutline } from "react-icons/io5";
 
 const Contact = () => {
     const form = useRef();
@@ -104,7 +105,7 @@ const Contact = () => {
                 </ul>
                 <br /><br />
                 <div className='location-container'>
-                    <FaLocationPin className='location-icon' />
+                    <IoLocationOutline className='location-icon' />
                     <h2 className='location-text'>Dubai, United Arab Emirates</h2>
                 </div>
 
