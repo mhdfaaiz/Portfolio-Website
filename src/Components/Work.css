@@ -1,0 +1,81 @@
+/* Container for the Timeline */
+.timeline-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Timeline Title */
+.timeline-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Timeline Layout */
+.timeline {
+    position: relative;
+    padding-left: 40px;
+    border-left: 3px solid #ffffff;
+}
+
+/* Timeline Item */
+.timeline-item {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* Date Section */
+.timeline-date {
+    position: absolute;
+    left: -120px;
+    top: 0;
+    font-size: 0.9rem;
+    color: #ffffff;
+    width: 100px;
+    text-align: right;
+}
+
+/* Content Section */
+.timeline-content {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: rgb(85, 85, 85);
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.timeline-content h4 {
+    margin: 5px 0 10px;
+    font-size: 1rem;
+    color: rgb(85, 85, 85);
+}
+
+.timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .timeline-date {
+        position: static;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    .timeline {
+        padding-left: 20px;
+    }
+}

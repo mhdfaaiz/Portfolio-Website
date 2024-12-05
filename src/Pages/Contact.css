@@ -33,13 +33,14 @@
 }
 
 .icon-colour {
-    color: #700c86 !important;
+    color: #000000 !important;
 }
 
 .box {
     background-color: #ffffff;
     border-radius: 10px;
     flex: 1 1;
+    max-width: 530px;
 }
 
 .home-social-icons {
@@ -56,9 +57,9 @@
 }
 
 .home-social-icons:hover {
-    color: #87209e;
-    box-shadow: 0 0 5px #87209e;
-    text-shadow: 0 0 2px #87209e;
+    color: #3b3b3b;
+    box-shadow: 0 0 5px #696969;
+    text-shadow: 0 0 2px #747474;
 }
 
 .location-container {
@@ -74,7 +75,7 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     /* Subtle shadow */
     max-width: fit-content;
-    margin-left: 142px;
+    margin-left: 202px;
     /* Shrinks the container to fit content */
 }
 
@@ -155,6 +156,7 @@
         border-radius: 10px;
         flex: 1 1;
         max-width: 100%;
+        max-height: max-content;
     }
 
     .contact-container h2 {

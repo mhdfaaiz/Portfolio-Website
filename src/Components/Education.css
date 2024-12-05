@@ -19,7 +19,7 @@ h2 {
     font-weight: 100;
 }
 
-.timeline {
+.timelines {
     display: flex;
     flex-direction: column;
     margin: 20px auto;
@@ -211,20 +211,28 @@ h2 {
 
 /* Responsive adjustments */
 @media (max-width: 786px) {
+    .study {
+        margin-top: 5px;
+        margin-left: -8px;
+        height: 300px !important;
+        width: 325px !important;
+        border: none !important;
+    }
+
     .timeline__event {
         flex-direction: column;
-        align-self: center;
+        align-self: flex-start;
     }
 
     .timeline__event__content {
-        width: 100%;
+        width: 350px !important;
     }
 
     .timeline__event__icon {
-        border-radius: 6px 6px 0 0;
-        width: 100%;
-        margin: 0;
+        width: 350px;
         box-shadow: none;
+        margin-left: 75px !important;
+
     }
 
     .timeline__event__icon:before,
@@ -233,13 +241,12 @@ h2 {
     }
 
     .timeline__event__date {
-        border-radius: 0;
-        padding: 20px;
+        width: 350px;
     }
 
     .timeline__event:nth-child(2n + 1) {
         flex-direction: column;
-        align-self: center;
+        align-self: flex-start;
     }
 
     .timeline__event:nth-child(2n + 1) .timeline__event__date {

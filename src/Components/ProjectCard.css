@@ -18,6 +18,35 @@
     height: 200px !important;
 }
 
+.linkbutton {
+    background-color: #ffffff !important;
+    /* Change to a green shade */
+    color: rgb(0, 0, 0) !important;
+    /* Text color */
+    border: none !important;
+    /* Remove default border */
+    font-weight: bold !important;
+    /* Make the text bold */
+    padding: 5px 10px !important;
+    /* Add padding for better button size */
+    border-radius: 5px !important;
+    /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease !important;
+    /* Smooth hover effect */
+    text-decoration: none !important;
+
+}
+
+.linkbutton:hover {
+    background-color: #b6b6b6;
+    /* Slightly darker green on hover */
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
+    color: white !important;
+    /* Ensure text color stays consistent */
+}
+
+
 .probutton {
     background-color: black !important;
 }

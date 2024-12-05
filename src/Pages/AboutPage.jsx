@@ -8,11 +8,15 @@ import Education from '../Components/Education'
 import 'animate.css/animate.min.css';
 import Interest from '../Components/Interest'
 import Description from '../Components/Description'
+import Work from '../Components/Work'
 function AboutPage() {
     return (
         <Container fluid className="about">
             <Description />
             <Interest />
+            <Container>
+                <Work />
+            </Container>
             <h1 className='head' style={{ margin: '15px' }}>MY EDUCATION</h1>
             <Container>
                 <Education />
@@ -27,7 +31,7 @@ function AboutPage() {
                 <h2 className='cvhead'>To Download My CV</h2>
                 <button className="download-cv-button">
                     <a href="/CV.pdf" download style={{ textDecoration: 'none', color: 'black' }}>
-                        Download CV
+                        <h4 style={{ marginRight: 'auto' }}> Download CV</h4>
                     </a>
                 </button>
             </div>

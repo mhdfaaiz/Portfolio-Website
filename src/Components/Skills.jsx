@@ -12,6 +12,7 @@ import {
     DiDjango,
     DiHtml5,
     DiMysql,
+    DiNodejs,
 
 } from "react-icons/di";
 import {
@@ -33,12 +34,16 @@ function Techstack() {
                 <h3>Django</h3>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-                <DiReact />
-                <h3>React</h3>
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
                 <DiJavascript1 />
                 <h3>JavaScript</h3>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiNodejs />
+                <h3>Node JS</h3>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <DiReact />
+                <h3>React</h3>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiPostgresql />
