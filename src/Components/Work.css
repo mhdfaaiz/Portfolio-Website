@@ -8,11 +8,13 @@
 }
 
 /* Timeline Title */
+
 .timeline-title {
     text-align: center;
-    font-size: 2rem;
     color: #ffffff;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    font-weight: 900;
 }
 
 /* Timeline Layout */
@@ -31,12 +33,11 @@
 /* Date Section */
 .timeline-date {
     position: absolute;
-    left: -120px;
+    left: -20px;
     top: 0;
     font-size: 0.9rem;
     color: #ffffff;
     width: 100px;
-    text-align: right;
 }
 
 /* Content Section */
@@ -47,6 +48,7 @@
     border-radius: 8px;
     position: relative;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 110px;
 }
 
 .timeline-content h3 {
@@ -68,7 +70,7 @@
 }
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
+@media (max-width:769px) {
     .timeline-date {
         position: static;
         text-align: left;
@@ -77,5 +79,22 @@
 
     .timeline {
         padding-left: 20px;
+    }
+
+    .timeline-content {
+        padding: 10px 20px;
+        background-color: #000000;
+        color: rgb(85, 85, 85);
+        border-radius: 8px;
+        position: relative;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-left: 0 !important;
+    }
+
+    .timeline-title {
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 20px;
+        font-weight: 900;
     }
 }
