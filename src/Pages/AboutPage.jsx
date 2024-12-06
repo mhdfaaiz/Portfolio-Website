@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './AboutPage.css'
 import Techstack from '../Components/Skills';
 import Toolstack from '../Components/Tools';

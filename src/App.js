@@ -6,6 +6,7 @@ import Contact from "./Pages/Contact";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
 import ReactGA from 'react-ga4';
+import React, { useEffect } from "react";
 
 ReactGA.initialize('G-7N4BDMQLVD');
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Project.css'
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from '../Components/ProjectCard';
@@ -10,6 +10,7 @@ import MHDS from '../static/MHDS.jpeg';
 import VoiceCar from '../static/VoiceCar.jpeg';
 import dv from '../static/DV.png';
 import ReactGA from 'react-ga4';
+import { useEffect } from 'react'
 
 
 

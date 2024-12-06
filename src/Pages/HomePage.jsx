@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './HomePage.css'
 import newpic from '../static/newww.png'
 import Role from '../Components/Role'
