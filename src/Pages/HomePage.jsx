@@ -2,8 +2,14 @@ import React from 'react'
 import './HomePage.css'
 import newpic from '../static/newww.png'
 import Role from '../Components/Role'
+import ReactGA from 'react-ga4';
 
 function HomePage() {
+
+    useEffect(() => {
+        ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
+    }, []);
+
     return (
         <div className='homepage'>
             <div className='first'>

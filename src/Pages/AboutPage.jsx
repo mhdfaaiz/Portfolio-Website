@@ -9,7 +9,13 @@ import 'animate.css/animate.min.css';
 import Interest from '../Components/Interest'
 import Description from '../Components/Description'
 import Work from '../Components/Work'
+import ReactGA from 'react-ga4';
+
 function AboutPage() {
+    useEffect(() => {
+        ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
+    }, []);
+
     return (
         <Container fluid className="about">
             <Description />

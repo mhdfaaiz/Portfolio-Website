@@ -11,8 +11,8 @@ import {
     AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn, } from 'react-icons/fa';
-import { FaLocationPin, } from 'react-icons/fa6';
 import { IoLocationOutline } from "react-icons/io5";
+import ReactGA from 'react-ga4';
 
 const Contact = () => {
     const form = useRef();
@@ -40,6 +40,10 @@ const Contact = () => {
             )
             .finally(() => setLoading(false));
     };
+
+    useEffect(() => {
+        ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
+    }, []);
 
     return (
         <div className="contact-container">

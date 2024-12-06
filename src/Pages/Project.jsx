@@ -9,10 +9,16 @@ import notes from '../static/notes.png';
 import MHDS from '../static/MHDS.jpeg';
 import VoiceCar from '../static/VoiceCar.jpeg';
 import dv from '../static/DV.png';
+import ReactGA from 'react-ga4';
 
 
 
 function Project() {
+
+
+    useEffect(() => {
+        ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
+    }, []);
     return (
         <Container fluid className="project-section">
             <Container>
